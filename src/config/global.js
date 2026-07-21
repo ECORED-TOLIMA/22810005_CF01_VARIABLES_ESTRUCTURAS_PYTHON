@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Fundamentos de programación en Python',
+    Description:
+      'El componente formativo aborda los fundamentos de la programación en Python, a partir del uso de variables, tipos de datos, estructuras compuestas, conversión de valores, funciones de entrada y salida, operadores, funciones integradas, módulos, librerías y estándares de codificación PEP 8. Estos elementos permiten comprender cómo se recibe, procesa y presenta la información en programas secuenciales básicos, de manera clara, ordenada y funcional.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -52,6 +53,24 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Tema 3',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Tema 4',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Tema 5',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Tema 6',
         desarrolloContenidos: true,
       },
     ],
