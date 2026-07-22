@@ -3,13 +3,13 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
+    top: 75%
     left: -10%
     width: 20%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 10%
     right: 10%
     width: 20%
 
@@ -26,11 +26,10 @@
   width: 58.33333333% !important
 .banner-principal__img 
   padding-bottom: 0 !important;
-.banner-principal__row .banner-principal__img 
-    width: 33%;
+
     
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+  color: $black !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -40,7 +39,7 @@
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $black !important
 figcaption 
     font-weight: normal !important
 
@@ -105,40 +104,60 @@ figcaption
 //Estilos generales para el curso
 
 //-----------------Estilo para listas-----------------//
-.lista-ul li
-  display: flex
-  align-items: flex-start
-  gap: 3px
 
-.lista-ul__vineta
-  flex: 0 0 auto
-  margin-top: 2px
-
-.lista-ul li p
+// RESET del UL
+.lista-ul--color
+  list-style: none
+  padding: 0
   margin: 0
-  margin-left: 10px
 
-.lista-ul--color li > i:first-of-type 
-    color: black
+// UL - Elementos de la lista
+.lista-ul--color li
+  display: flex !important
+  align-items: flex-start !important
+  margin-bottom: 8px
+  width: 100%
 
-.margin-li
-  .lista-ul--color li > i:first-of-type
-    margin-left: -1rem !important
+// Viñeta
+.lista-ul__vineta
+  margin-right: 12px !important
+  flex-shrink: 0 !important
+  margin-top: 2px !important
+  color: black
+  min-width: 8px
 
-.lista-ol--cuadro li 
+// Párrafo
+.lista-ul--color li p
+  margin: 0 !important
+  flex: 1
+  padding: 0
+
+// OL - LISTA ORDENADA (para referencia)
+.lista-ol--cuadro
+  list-style: none
+  padding: 0
+
+.lista-ol--cuadro li
   display: flex
   align-items: flex-start
+  margin-bottom: 8px
 
-.lista-ol--cuadro__vineta 
+.lista-ol--cuadro__vineta
   margin-right: 12px
   flex-shrink: 0
+  min-width: 32px
+  background-color: #FFA500
+  color: white
+  padding: 4px 8px
+  text-align: center
+  font-weight: bold
 
-.lista-ol--cuadro .contenido 
+.lista-ol--cuadro li p
+  margin: 0
   flex: 1
 
-.lista-ol--cuadro__vineta2
-    background-color: transparent
-    margin-right: 8px
+.lista-ul--color li > i:first-of-type 
+    color: #000000
 
 // Icono para listas----------------------------------------
 .icono-img
@@ -249,6 +268,8 @@ figcaption
     background-repeat: no-repeat
     background-size: cover
     margin-inline: -3.2rem !important
+  &-14
+    background-color: #E6E9FB
 
 //en este bloque van todas los cajones del componente //
 
@@ -291,7 +312,7 @@ figcaption
   border: none
 
 .slyder-a__bullets__item
-  background-color: white
+  background-color: #FFDE74
 
 //-------------------////--------//
 
@@ -337,3 +358,79 @@ figcaption
     background-color: #87FCE8
 
 
+// slider pasos ///import css-variables from
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #122CD4 !important
+  border: none
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #C0FEA6
+  background-color: #C0FEA6
+  i
+    color: black !important
+
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot span
+  color: #ffffff
+
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #122CD4
+    color: #f6f9fc
+
+.tarjeta--gris 
+    background-color: #E6FFD8
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d
+  &.color-primario
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: $color-acento-botones
+        color: textColor($color-acento-botones)
+      .linea-tiempo-d__item__content
+        background-color: #E6FFD8 !important
+        color: textColor($color-acento-contenido)
+    .linea-tiempo-d__item__number
+       background-color: $color-acento-botones
+       color: textColor($color-acento-botones)
+    .linea-tiempo-d__item__content
+      background-color: #E6E9FB
+      color: textColor($color-acento-contenido)
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__number 
+    background-color: #E6E9FB
+
+// acordeon cruz ///import css-variables from 
+
+  ///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #E6FFD8
+
+.acordion__accion__btn--a
+  background-color: #122CD4 !important
+
+.acordion__activo
+  background-color: #E6FFD8 !important
+  color: black !important
+  h3
+    color: black !important
+  
+.acordion__titulo
+  h3
+    color: black 
+
+.acordion__accion__btn--a i, .acordion__accion__btn--b i 
+    color: white !important
+
+.slyder__btn 
+  background-color: #122CD4
+
+.slyder__btn i 
+    color: white !important
+
+.acordion__accion__btn--b 
+    background-color: #122CD4 !important
+
+
+  

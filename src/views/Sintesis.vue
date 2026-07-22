@@ -2,13 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
+    p El componente formativo presenta los fundamentos iniciales del lenguaje Python, con énfasis en la instalación del entorno de trabajo, el uso de comentarios, el reconocimiento de errores, la declaración de variables y el manejo de tipos de datos. A partir de estos elementos, se abordan los datos numéricos, booleanos y cadenas de caracteres, las operaciones aritméticas y las estructuras de datos compuestas, como listas, tuplas, rangos, diccionarios y conjuntos, las cuales permiten almacenar, organizar y transformar información dentro de un programa.
+
+    p El recorrido continúa con la conversión de tipos de datos, las funciones de entrada y salida, los operadores aritméticos, lógicos, relacionales y de cadena, así como las funciones integradas, los módulos, las librerías y los estándares de codificación PEP 8. De este modo, se construye una base conceptual y práctica para elaborar programas secuenciales claros, funcionales y fáciles de mantener. A continuación, el mapa conceptual organiza de manera visual los ejes temáticos del componente formativo y las relaciones que los articulan.
     
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="El mapa conceptual titulado “Fundamentos de programación en Python” organiza el tema central en seis ejes: instalación y primeros pasos, variables y tipos de datos, estructuras de datos compuestas, entrada y salida de datos, operadores y funciones integradas, y módulos, librerías y estándares. Cada eje presenta los conceptos básicos para iniciar la programación en Python, desde la instalación del entorno y el uso de comentarios, hasta la declaración de variables, el manejo de listas, tuplas, rangos y conjuntos, el uso de las funciones input() y print(), la aplicación de operadores y la incorporación de módulos, librerías y buenas prácticas de codificación con PEP 8.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

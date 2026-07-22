@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Variables: nombre, declaración y tipos de datos
+      h1 Variables: nombre, declaración
 
     .row.align-items-center.justify-content-center
       .col-lg-12
@@ -459,7 +459,7 @@
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2. Datos numéricos, booleanos y cadenas de caracteres
+      h2 2.2. Datos numéricos, booleanos y cadenas de caracteres (str)
 
     figure
       img(src='@/assets/curso/temas/t2/20.png', alt='', style="width: 1280px").m-auto
@@ -782,24 +782,24 @@
             img(src='@/assets/curso/temas/t2/34.svg' alt='')
             .tarjeta.color-primario
               .p-4
-                h4.text-center John Doe
-                p.mb-0 moment. K askdnaskjda sjkdn akjsndasd ajshd akjshd kajshd ask djhak sjdha ksjdha kjsdha kjsdha kjsdh akjshda kjshd aksjdh kajsd djkhakjshdka jsak Abandon the shelter of insecurity.
+                h4.text-center Valor verdadero (True)
+                p.mb-0 Se usa cuando una condición se cumple. Por ejemplo, usuario_activo = True puede indicar que una cuenta está habilitada para ingresar al sistema. 
 
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/35.svg' alt='')
             .tarjeta.color-primario
               .p-4
-                h4.text-center John Doe
-                p.mb-0 moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+                h4.text-center Valor falso (False)
+                p.mb-0 Se usa cuando una condición no se cumple. Por ejemplo, pago_realizado = False puede indicar que una transacción aún no ha sido confirmada. 
 
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/36.svg' alt='')
             .tarjeta.color-primario
               .p-4
-                h4.text-center Greatness isn’t the height
-                p.mb-0 moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+                h4.text-center Valores equivalentes a falso
+                p.mb-0 Python interpreta como falsos valores como None, False, cero, cadenas vacías y colecciones vacías. Esta regla resulta útil al validar entradas o comprobar si una variable contiene información.
 
 
     p Estos valores permiten tomar decisiones dentro del programa, especialmente cuando se trabajan condiciones, validaciones o estructuras de control. Reconocer qué elementos se interpretan como verdaderos o falsos ayuda a evitar errores lógicos en la ejecución.

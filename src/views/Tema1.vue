@@ -247,9 +247,10 @@
 
             p Para reforzar la instalación y configuración del entorno de trabajo, se recomienda consultar el recurso audiovisual sobre el uso de Visual Studio Code con Python. Este material orienta, de manera visual, el procedimiento para preparar el editor y ejecutar los primeros programas.
             
-            a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=gEg1lxY5ioA  " target="_blank")
               span Abrir video
               i.fas.fa-file-download      
+              
 
 
       p.mt-4 El uso de un editor de código facilita la escritura organizada de instrucciones y la revisión de los resultados obtenidos. Esta base permite avanzar hacia una práctica esencial en programación, documentar el código mediante comentarios que expliquen su propósito sin afectar la ejecución del programa.
