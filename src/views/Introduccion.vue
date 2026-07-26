@@ -62,22 +62,12 @@
 
               p.mb-0 De igual manera, las funciones de entrada y salida permiten establecer la comunicación entre el programa y la persona que lo utiliza. La función input() facilita la captura de datos, mientras que print() permite mostrar resultados en pantalla. Estas operaciones se complementan con la conversión de tipos, los operadores, las funciones integradas, los módulos, las librerías y los estándares de codificación que orientan la escritura de programas claros y ordenados.
 
-
-
     p.mt-4 Para fortalecer la comprensión de los conceptos abordados y contextualizar su aplicación en la construcción de programas secuenciales en Python, se recomienda acceder al recurso audiovisual que acompaña este componente formativo.
 
-
-
-
-
     .row.justify-content-center.align-items-center.mt-4(data-aos="fade-down")          
-
       .col-lg-12
-
         figure
-
           .video
-
             iframe(width="560" height="315" src="https://www.youtube.com/embed/-7MMR1zPubw?si=T97c1Ojkdv3OH5EO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
