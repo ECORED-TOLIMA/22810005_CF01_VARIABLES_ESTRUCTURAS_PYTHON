@@ -21,7 +21,7 @@
             .col-lg-12
               .row.align-items-center
                 .col-lg-12
-                  .cajon.color1.p-4
+                  .cajon.color2.p-4
                     p Python es un lenguaje de programación de propósito general, reconocido por su sintaxis clara, su legibilidad y su amplia aplicación en áreas como desarrollo de software, análisis de datos, automatización e inteligencia artificial. Estas características lo convierten en una herramienta adecuada para iniciar la construcción de programas secuenciales, en los que las instrucciones se ejecutan paso a paso.
 
           .row.align-items-start.mt-2
@@ -88,7 +88,7 @@
             span Sitio oficial para la descarga de Python.
           figure
             img.d-none.d-md-block.m-auto(
-              src='@/assets/curso/temas/t1/6.png')
+              src='@/assets/curso/temas/t1/6.png', alt="La Figura 1 presenta el sitio oficial de Python, donde se muestra la opción para descargar la versión más reciente del lenguaje para Windows, identificada como Python 3.14.6")
             figcaption.mt-2.d-none.d-md-block Nota. Tomada de Python Software Foundation (s.f.-a).
         
 
@@ -147,17 +147,17 @@
                   li 
                     .lista-ol--cuadro__vineta2
                       span.text-black a
-                    p.mb-0 Abrir la línea de comandos de Windows ejecutando el programa cmd.exe (puede buscarse desde el menú Inicio escribiendo "cmd").
+                    p.mb-0.px-2 Abrir la línea de comandos de Windows ejecutando el programa cmd.exe (puede buscarse desde el menú Inicio escribiendo "cmd").
 
                   li 
                     .lista-ol--cuadro__vineta2
                       span.text-black b
-                    p.mb-0 En la ventana de la consola, escribir la palabra Python y presionar la tecla ENTER.
+                    p.mb-0.px-2 En la ventana de la consola, escribir la palabra Python y presionar la tecla ENTER.
 
                   li 
                     .lista-ol--cuadro__vineta2
                       span.text-black c
-                    p.mb-0 Si la instalación es correcta, se iniciará el entorno interactivo de Python, mostrando la versión instalada y el símbolo del sistema >>>, donde es posible introducir comandos y probar instrucciones del lenguaje.
+                    p.mb-0.px-2 Si la instalación es correcta, se iniciará el entorno interactivo de Python, mostrando la versión instalada y el símbolo del sistema >>>, donde es posible introducir comandos y probar instrucciones del lenguaje.
 
 
             .row(numero="7" titulo="Paso 7. Salir del entorno interactivo")
@@ -451,7 +451,7 @@
 
       .row.justify-content-center.mt-2
         .col-lg-10
-          p p.mt-2 En este ejemplo se ha cerrado un paréntesis cuando no había otro abierto previamente. Python indica un error de sintaxis (SyntaxError) y señala con el carácter ^ el lugar del error.
+          p En este ejemplo se ha cerrado un paréntesis cuando no había otro abierto previamente. Python indica un error de sintaxis (SyntaxError) y señala con el carácter ^ el lugar del error.
 
           .row.align-items-start.mt-4
             .col-lg-1.mb-lg-0.mb-4
@@ -534,7 +534,6 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      this.$aosRefresh()
       Prism.highlightAllUnder(this.$el)
     })
   },
@@ -544,3 +543,5 @@ export default {
   },
 }
 </script>
+
+<style lang="sass"></style>
