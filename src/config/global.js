@@ -55,12 +55,12 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Variables: nombre y declaración',
+        titulo: 'Variables: nombre, declaración y tipos de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Identificar el tipo de variable',
+            titulo: 'Identificación del tipo de variable',
             hash: 't_2_1',
           },
           {
@@ -78,7 +78,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Estructuras de datos compuestas',
+        titulo: 'Estructuras de datos compuestas y conversión de tipos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -88,7 +88,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Conjuntos (set)',
+            titulo: 'Conjuntos',
             hash: 't_3_2',
           },
           {
@@ -129,7 +129,7 @@ export default {
           },
           {
             numero: '5.2',
-            titulo: 'Operadores lógicos y relacionales',
+            titulo: 'Operadores lógicos, relacionales y de cadena',
             hash: 't_5_2',
           },
           {

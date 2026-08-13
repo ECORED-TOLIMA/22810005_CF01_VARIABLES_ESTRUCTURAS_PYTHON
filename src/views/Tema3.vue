@@ -433,7 +433,7 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 5.
+            h5 Tabla 4.
             span Operaciones de conjuntos en Python
 
           .tabla-a.color-acento-contenido 
@@ -526,7 +526,7 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 6.
+            h5 Tabla 5.
             span Comparación de estructuras de datos compuestas en Python
 
           .tabla-a.color-acento-contenido 
@@ -729,7 +729,7 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 7. 
+            h5 Tabla 6. 
             span Funciones de conversión de tipos en Python
 
           .tabla-a.color-acento-contenido 

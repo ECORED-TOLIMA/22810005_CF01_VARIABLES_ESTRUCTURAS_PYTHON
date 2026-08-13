@@ -258,7 +258,7 @@
       .row.justify-content-center
         .col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5.bg-11.p-1 Código. Asignación múltiple e intercambio de valores en Python
+            h5.bg-11.p-1 Resultado esperado
 
       .row.align-items-center.justify-content-center(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block.order-2
@@ -486,7 +486,7 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 8.
+            h5 Tabla 7.
             span Formatos para la salida de datos en Python
 
           .tabla-a.color-acento-contenido 

@@ -87,7 +87,7 @@
 
       .titulo-tercer-nivel.mb-5.mt-4(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/14.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Operadores de cadena
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Tipos de módulos y formas de importación.
 
       p No todos los módulos tienen el mismo origen. Según su procedencia, pueden clasificarse en módulos integrados en el propio lenguaje, módulos desarrollados por terceros e instalables por el programador, y módulos propios creados por el desarrollador para su proyecto.
 
@@ -149,7 +149,7 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 13.
+            h5 Tabla 12.
             span Módulos integrados de uso frecuente en Python
 
           .tabla-a.color-acento-contenido 

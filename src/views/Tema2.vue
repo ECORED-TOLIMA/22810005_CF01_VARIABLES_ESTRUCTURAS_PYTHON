@@ -184,8 +184,8 @@
               tbody
                 tr(style="background-color: #F6F9F4")
                   td 
-                    b 2nombre
-                  td nombre (comienza con dígito)
+                    b nombre
+                  td 2nombre (comienza con dígito)
 
                 tr
                   td 
@@ -369,7 +369,7 @@
       .row.justify-content-center.mt-4
         .col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5.bg-11.p-1 Código. Asignación múltiple e intercambio de valores en Python
+            h5.bg-11.p-1 Código. Uso de type() e isinstance() para identificar tipos de datos.
 
       .row.align-items-center.justify-content-center(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block
@@ -436,7 +436,7 @@
                 | print(dir(str))
 
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5.bg-11.p-1 Código. Exploración de métodos con dir()
+            h5.bg-11.p-1 Resultado esperado parcial
           .tarjeta-codigo
             pre.language-python(language="python").mb-5
               code

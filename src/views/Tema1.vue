@@ -30,7 +30,7 @@
                 img(src='@/assets/curso/temas/t1/3.svg', style='width: 100px').m-auto
             
             .col
-              p Antes de iniciar la instalación, es necesario descargar el instalador desde el sitio oficial de Python: https://www.python.org/downloads/. Esta fuente garantiza que el archivo corresponda a una versión reciente, estable y libre de modificaciones no autorizadas. El uso de páginas no oficiales puede exponer el equipo a instaladores desactualizados o con código malicioso.
+              p Antes de iniciar la instalación, es necesario descargar el instalador desde el sitio oficial de Python: <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>. Esta fuente garantiza que el archivo corresponda a una versión reciente, estable y libre de modificaciones no autorizadas. El uso de páginas no oficiales puede exponer el equipo a instaladores desactualizados o con código malicioso.
 
       p.mt-4 La preparación inicial en Python requiere aplicar buenas prácticas que facilitan la escritura, comprensión y corrección del código. Entre las más importantes se encuentran:
 
@@ -118,7 +118,7 @@
         .col-lg-10
           LineaTiempoD.color-primario.linea-bold
             .row(numero="1" titulo="Paso 1. Acceder al sitio oficial de Python")
-              p Ingresar al sitio web oficial del lenguaje a través de la URL http://www.python.org. Es fundamental utilizar esta página oficial para garantizar que el instalador descargado sea seguro y corresponda a la versión más reciente y estable del lenguaje.
+              p Ingresar al sitio web oficial del lenguaje a través de la URL <a href="https://www.python.org" target="_blank">https://www.python.org</a>. Es fundamental utilizar esta página oficial para garantizar que el instalador descargado sea seguro y corresponda a la versión más reciente y estable del lenguaje.
       
             .row(numero="2" titulo="Paso 2. Descargar el instalador ejecutable")
               .col-md-12.mb-4.mb-md-0

@@ -264,7 +264,7 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 9.
+            h5 Tabla 8.
             span Operadores aritméticos y precedencia en Python
 
           .tabla-a.color-acento-contenido 
@@ -374,7 +374,7 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 10.
+            h5 Tabla 9.
             span Operadores lógicos en Python
 
           .tabla-a.color-acento-contenido 
@@ -442,7 +442,7 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 11.
+            h5 Tabla 10.
             span Operadores relacionales en Python
 
           .tabla-a.color-acento-contenido 
