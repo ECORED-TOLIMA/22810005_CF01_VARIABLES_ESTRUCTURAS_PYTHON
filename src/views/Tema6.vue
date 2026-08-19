@@ -149,8 +149,8 @@
       .row.justify-content-center.mt-4
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3.mt-4
-            h5 Tabla 12.
-            span Módulos integrados de uso frecuente en Python
+            h5 Tabla 11.
+            span Módulos integ rados de uso frecuente en Python
 
           .tabla-a.color-acento-contenido 
             table
