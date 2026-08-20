@@ -54,7 +54,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La opción "Add Python to PATH" permite ejecutar Python desde cualquier ubicación en la línea de comandos sin necesidad de escribir la ruta completa del ejecutable.',
+            'La opción "Add Python to PATH" permite ejecutar Python desde cualquier ubicación en la línea de comandos sin necesidad de escribir la ruta completa del ejecutable.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -87,7 +87,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! En Python el tipo de dato se asigna automáticamente en tiempo de ejecución según el valor asignado; esta característica se conoce como tipado dinámico.',
+            'En Python el tipo de dato se asigna automáticamente en tiempo de ejecución según el valor asignado; esta característica se conoce como tipado dinámico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -120,7 +120,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Un nombre de variable puede comenzar con una letra o con el carácter guion bajo (_); _total cumple con todas las reglas de nombrado en Python.',
+            'Un nombre de variable puede comenzar con una letra o con el carácter guion bajo (_); _total cumple con todas las reglas de nombrado en Python.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -153,7 +153,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La función type() recibe como parámetro un objeto y devuelve el tipo de este, lo cual resulta útil para verificar en tiempo de ejecución si una variable contiene el tipo de dato esperado.',
+            'La función type() recibe como parámetro un objeto y devuelve el tipo de este, lo cual resulta útil para verificar en tiempo de ejecución si una variable contiene el tipo de dato esperado.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -186,7 +186,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! En Python los valores booleanos se representan con bool, clase que solo puede instanciarse con dos valores: True para verdadero y False para falso.',
+            'En Python los valores booleanos se representan con bool, clase que solo puede instanciarse con dos valores: True para verdadero y False para falso.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -218,7 +218,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El operador // representa la división entera en Python; 31 dividido 4 da 7 como cociente entero, descartando la parte decimal.',
+            'El operador // representa la división entera en Python; 31 dividido 4 da 7 como cociente entero, descartando la parte decimal.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -251,7 +251,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La principal diferencia entre lista y tupla es que las tuplas son inmutables, no se pueden modificar después de creadas, lo que las hace útiles para almacenar datos que no deben cambiar.',
+            'La principal diferencia entre lista y tupla es que las tuplas son inmutables, no se pueden modificar después de creadas, lo que las hace útiles para almacenar datos que no deben cambiar.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -285,7 +285,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Los conjuntos son una colección no ordenada y sin elementos repetidos, especialmente útiles para eliminar duplicados y realizar operaciones matemáticas de conjuntos.',
+            'Los conjuntos son una colección no ordenada y sin elementos repetidos, especialmente útiles para eliminar duplicados y realizar operaciones matemáticas de conjuntos.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -318,7 +318,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La función int() devuelve un entero a partir de un número o cadena; es una de las funciones más utilizadas para convertir el valor devuelto por input() en un tipo numérico.',
+            'La función int() devuelve un entero a partir de un número o cadena; es una de las funciones más utilizadas para convertir el valor devuelto por input() en un tipo numérico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -351,7 +351,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El valor devuelto por input() siempre es de tipo str (cadena de caracteres), independientemente de lo que el usuario escriba; si se requiere un número, es necesario convertirlo mediante int() o float().',
+            'El valor devuelto por input() siempre es de tipo str (cadena de caracteres), independientemente de lo que el usuario escriba; si se requiere un número, es necesario convertirlo mediante int() o float().',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -384,7 +384,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Las f-strings anteponen la letra f a la cadena y permiten insertar expresiones entre llaves { }; es la técnica recomendada a partir de Python 3.6.',
+            'Las f-strings anteponen la letra f a la cadena y permiten insertar expresiones entre llaves { }; es la técnica recomendada a partir de Python 3.6.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -417,7 +417,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El operador % calcula el módulo o residuo de una división; por ejemplo, 7 % 2 da como resultado 1.',
+            'El operador % calcula el módulo o residuo de una división; por ejemplo, 7 % 2 da como resultado 1.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -450,7 +450,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El operador and devuelve True únicamente cuando ambas expresiones son verdaderas; si al menos una es falsa, el resultado es False.',
+            'El operador and devuelve True únicamente cuando ambas expresiones son verdaderas; si al menos una es falsa, el resultado es False.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -483,7 +483,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            "¡Correcto! El operador * aplicado entre una cadena y un número funciona como operador de repetición, por lo que 'Ja' * 3 produce la cadena 'JaJaJa'.",
+            "El operador * aplicado entre una cadena y un número funciona como operador de repetición, por lo que 'Ja' * 3 produce la cadena 'JaJaJa'.",
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -517,7 +517,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La expresión "<em>batteries included</em>" se refiere a que Python incluye una amplia biblioteca estándar con cientos de módulos para tareas comunes, lo que constituye una de las principales fortalezas del lenguaje.',
+            'La expresión "<em>batteries included</em>" se refiere a que Python incluye una amplia biblioteca estándar con cientos de módulos para tareas comunes, lo que constituye una de las principales fortalezas del lenguaje.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -550,7 +550,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La sentencia from math import sqrt permite importar funciones específicas de un módulo, lo que se recomienda siguiendo las buenas prácticas de PEP 8.',
+            'La sentencia from math import sqrt permite importar funciones específicas de un módulo, lo que se recomienda siguiendo las buenas prácticas de PEP 8.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -583,7 +583,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La excepción NameError se genera cuando se usa una variable que no ha sido definida previamente en el programa.',
+            'La excepción NameError se genera cuando se usa una variable que no ha sido definida previamente en el programa.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -616,7 +616,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El estándar PEP 8 recomienda utilizar snake_case para variables y funciones (por ejemplo, total_ventas), mientras que las constantes se escriben en MAYÚSCULAS y las clases en CamelCase.',
+            'El estándar PEP 8 recomienda utilizar snake_case para variables y funciones (por ejemplo, total_ventas), mientras que las constantes se escriben en MAYÚSCULAS y las clases en CamelCase.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -649,7 +649,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            "¡Correcto! El método strip() elimina los espacios en blanco al inicio y al final de una cadena; por ejemplo, “espacios \".strip() devuelve 'espacios'.",
+            "El método strip() elimina los espacios en blanco al inicio y al final de una cadena; por ejemplo, “espacios \".strip() devuelve 'espacios'.",
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -683,7 +683,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! En Python los comentarios multilínea se delimitan con triple comilla al principio y al final; también se pueden hacer comentarios de una sola línea con el símbolo #.',
+            'En Python los comentarios multilínea se delimitan con triple comilla al principio y al final; también se pueden hacer comentarios de una sola línea con el símbolo #.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
